@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyUI(bootstrapPage(\n  \n  # Application title\n  titlePanel(\"Disease prediction\"),\n  div(style=\"float:left; margin-left: 10px\",\n    id = \"form\",\n    textInput(\"age\", \"Age\", \"\"),\n    textInput(\"sex\", \"Gender\", \"\"),\n    textInput(\"chestpaintype\", \"Chest Pain Type\", \"\"),\n    textInput(\"restingbp\", \"Resting blood pressure\", \"\"),\n    textInput(\"cholestrol\", \"Cholestrol\", \"\"),\n    textInput(\"fastingbloodsugar\", \"Fasting Blood Sugar\", \"\"),\n    textInput(\"electrocardiographic\", \"Resting Electrocardiographic results\", \"\"),\n    textInput(\"maxheartrate\", \"Maximum Heart Rate\", \"\"),\n    textInput(\"exerciseangina\", \"Exercise Induced Angina\", \"\"),\n    textInput(\"oldpeak\", \"OldPeak\", \"\"),\n    textInput(\"slopeofpeakexercise\", \"Slope of peak exercise\", \"\")\n   \n   \n    \n  ),\n  \n  div(style=\"float:left; margin-left: 10px\",\n      textInput(\"ca\", \"Number of major vessels\", \"\"),\n      textInput(\"thal\", \"Thal\", \"\"),\n      textInput(\"pregnant\", \"Times Pregnant\", \"\"),\n    textInput(\"plasma\", \"Plasma Glucose\", \"\"),\n    textInput(\"bp\", \"Diastolic Blood Pressure\", \"\"),\n    textInput(\"tricep\", \"Tricep Skin\", \"\"),\n    textInput(\"insulin\", \"Serium Insulin\", \"\"),\n    textInput(\"bmi\", \"Body mass Index\", \"\"),\n    textInput(\"pedigree\", \"Diabetes Pedigree\", \"\"),\n    actionButton(\"submit\",\"Submit\", class=\"btn-primary\")\n  ),\n  \n  # Show a plot of the generated distribution\n  mainPanel(\n    verbatimTextOutput(\"text\")\n  )\n)\n)\n",
+    "created" : 1492927802712.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1244387214",
+    "id" : "FC233B5A",
+    "lastKnownWriteTime" : 1494373301,
+    "last_content_update" : 1494373301797,
+    "path" : "~/DemoProject/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
